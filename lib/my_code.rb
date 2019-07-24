@@ -55,5 +55,5 @@ while source_array.length > i do
   return false if !source_array[i]
   i+=1
 end
- return 
+ return true
 end

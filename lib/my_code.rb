@@ -49,9 +49,8 @@ end
  return final_value
 end
 
-def reduce_to_total(source_array,starting_point=0)
-i=0 
-final_value=starting_point
+def reduce_to_all_true(source_array)
+i=0
 while source_array.length > i do 
   final_value += source_array[i]
   i+=1
